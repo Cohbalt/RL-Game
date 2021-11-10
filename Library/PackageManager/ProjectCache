@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637721194366640785
-    m_Hash: 2641351944
+      ticks: 637721201561568534
+    m_Hash: 1543898058
   m_LockFileStatus:
     m_FilePath: C:/Users/Calvin/Documents/RL-Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637721194613537846
-    m_Hash: 3539099538
+      ticks: 637721201561628380
+    m_Hash: 2888801861
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -614,12 +614,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.13.5
+    - packageId: com.unity.collab-proxy@1.15.1
       testable: 0
       isDirectDependency: 1
-      version: 1.13.5
+      version: 1.15.1
       source: 1
-      resolvedPath: C:\Users\Calvin\Documents\RL-Game\Library\PackageCache\com.unity.collab-proxy@1.13.5
+      resolvedPath: C:\Users\Calvin\Documents\RL-Game\Library\PackageCache\com.unity.collab-proxy@1.15.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -729,13 +729,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637685076530000000
+      datePublishedTicks: 637705007780000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 4001806dc89b25276d1382d5abffd71731b030e5
+        revision: 44478cbd3117b13beac17ff868e64d0aed5c4071
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
