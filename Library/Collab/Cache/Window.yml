@@ -14,17 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Engine.cs
+    - Assets/Engine.cs.meta
     - Assets/Forest.unity
     - Assets/Forest.unity.meta
+    - Assets/Free Pixel Art Forest/Pixel Forest.psb
+    - Assets/Free Pixel Art Forest/Pixel Forest.psb.meta
     - Assets/Free Pixel Art Forest/Preview.meta
-    - Assets/Free Pixel Art Forest/Preview/Background.png
     - Assets/Free Pixel Art Forest/Preview/Background.png.meta
-    - Assets/Free Pixel Art Hills/contact.txt
-    - Assets/Free Pixel Art Hills/contact.txt.meta
-    - Assets/Pixel Forest.psb
-    - Assets/Pixel Forest.psb.meta
+    - Assets/Free Pixel Art Hills/Demo/MoveBackground.cs
+    - Assets/Free Pixel Art Hills/PSD/Background.psd.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Forest.png.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Plataformer Painted
+      Style.png.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Runner.png.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Snowy Forest.png.meta
+    - Assets/Scenes/Hill_Battle_Scene.unity
+    - Assets/Spawns.meta
+    - Assets/Spawns/HeavyKnight.prefab
+    - Assets/Spawns/HeavyKnight.prefab.meta
+    - Assets/Spawns/Player.prefab
+    - Assets/Spawns/Player.prefab.meta
+    - Assets/UnitAttributes.cs
+    - Assets/UnitAttributes.cs.meta
     - 
-    m_Values: 01010101010101010101
+    m_Values: 0000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
