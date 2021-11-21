@@ -44,7 +44,6 @@
      <Compile Include="Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
      <Compile Include="Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
      <Compile Include="Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
-     <None Include="Assets/Free Pixel Art Hills/contact.txt" />
      <None Include="Assets/Free Pixel Art Hills/Lisense.txt" />
      <None Include="Assets/Free Pixel Art Hills/readme.txt" />
      <None Include="Assets/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader" />

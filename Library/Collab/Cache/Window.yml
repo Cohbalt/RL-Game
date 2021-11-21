@@ -14,18 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab
-    - Assets/Battle_System.cs
-    - Assets/Battle_System.cs.meta
-    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab
-    - Assets/Prefabs.meta
-    - Assets/Scenes/Hill_Battle_Scene.unity
-    - Assets/Stats.cs
-    - Assets/Stats.cs.meta
-    - Assets/UI.psb
-    - Assets/UI.psb.meta
+    - Assets/Forest.unity
+    - Assets/Forest.unity.meta
+    - Assets/Free Pixel Art Forest/Preview.meta
+    - Assets/Free Pixel Art Forest/Preview/Background.png
+    - Assets/Free Pixel Art Forest/Preview/Background.png.meta
+    - Assets/Free Pixel Art Hills/contact.txt
+    - Assets/Free Pixel Art Hills/contact.txt.meta
+    - Assets/Pixel Forest.psb
+    - Assets/Pixel Forest.psb.meta
     - 
-    m_Values: 0000000000000000000000
+    m_Values: 01010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
