@@ -40,10 +40,10 @@
      <Compile Include="Assets/Free Pixel Art Hills/Demo/MoveBackground.cs" />
      <Compile Include="Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs" />
      <Compile Include="Assets/Bandits - Pixel Art/Demo/Sensor_Bandit.cs" />
+     <Compile Include="Assets/MainMenu.cs" />
      <Compile Include="Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
      <Compile Include="Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
      <Compile Include="Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
-     <Compile Include="Assets/MainMenu.cs" />
      <None Include="Assets/Free Pixel Art Hills/contact.txt" />
      <None Include="Assets/Free Pixel Art Hills/Lisense.txt" />
      <None Include="Assets/Free Pixel Art Hills/readme.txt" />
