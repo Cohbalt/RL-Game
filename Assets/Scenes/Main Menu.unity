@@ -1022,7 +1022,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: REPGEON
+  m_Text: RNGEON
 --- !u!222 &1849137027
 CanvasRenderer:
   m_ObjectHideFlags: 0

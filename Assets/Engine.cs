@@ -7,6 +7,11 @@ public enum AllStates { START, PLAYER, ENEMY, TRANSITION, RESET }
 
 public class Engine : MonoBehaviour
 { 
+    public Text currhp;
+    public Text lvl;
+    public Text lck;
+    //public Text maxhp;
+    private Animation anim;
     public GameObject enemyPrefab1, enemyPrefab2, enemyPrefab3;
     public GameObject playerPrefab;
 
@@ -29,6 +34,10 @@ public class Engine : MonoBehaviour
     {
         GameObject playerGO = Instantiate(playerPrefab, playerSpawn);
         playerUnit = playerGO.GetComponent<UnitAttributes>();
+        currhp.text = playerUnit.unitCurrentHealth.ToString() + "/" + playerUnit.unitMaxHealth.ToString();
+        lck.text = playerUnit.unitLuck.ToString();
+        lvl.text = playerUnit.unitLevel.ToString();
+
 
         if (enemyTrue1)
         {
