@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Hill_Battle_Scene.unity
+- path: Assets/Forest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

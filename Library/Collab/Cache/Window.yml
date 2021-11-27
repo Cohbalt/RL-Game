@@ -14,59 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
-    - Assets/BattleHud.psd
-    - Assets/BattleHud.psd.meta
     - Assets/Engine.cs
-    - Assets/Forest.unity
-    - Assets/Forest.unity.meta
-    - Assets/Free Pixel Art Forest/Contact.txt
-    - Assets/Free Pixel Art Forest/Pixel Forest.psb.meta
-    - Assets/Free Pixel Art Forest/Preview.meta
-    - Assets/Free Pixel Art Forest/Preview/Background.png.meta
-    - Assets/Free Pixel Art Hills/Demo/MoveBackground.cs
-    - Assets/Free Pixel Art Hills/PSD/Background.psd.meta
-    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Forest.png.meta
-    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Plataformer Painted
-      Style.png.meta
-    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Runner.png.meta
-    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Snowy Forest.png.meta
-    - Assets/Icons.meta
-    - Assets/Icons/167-1672614_shield-silver-pixel-shield-png.png
-    - Assets/Icons/167-1672614_shield-silver-pixel-shield-png.png.meta
-    - Assets/Icons/340-3401417_sapphire-detailed-knights-sword-art-pixel-demon-sword.png
-    - Assets/Icons/340-3401417_sapphire-detailed-knights-sword-art-pixel-demon-sword.png.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe17d05420 1.jpg
-    - Assets/Icons/[GetPaidStock.com]-619fe17d05420 1.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe17d05420.jpg
-    - Assets/Icons/[GetPaidStock.com]-619fe17d05420.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88.jpg
-    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88_adobespark.png
-    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88_adobespark.png.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe3cce75f2.jpg
-    - Assets/Icons/[GetPaidStock.com]-619fe3cce75f2.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe48de2ddb.jpg
-    - Assets/Icons/[GetPaidStock.com]-619fe48de2ddb.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.jpg
-    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.png
-    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.png.meta
-    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64.jpg
-    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64.jpg.meta
-    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64_adobespark.png
-    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64_adobespark.png.meta
-    - Assets/Icons/_GetPaidStock.com_-619fe48de2ddb-removebg-preview.png
-    - Assets/Icons/_GetPaidStock.com_-619fe48de2ddb-removebg-preview.png.meta
-    - Assets/Icons/sword.webp
-    - Assets/Icons/sword.webp.meta
+    - Assets/Free Pixel Art Forest/Pixel Forest.jpg
+    - Assets/Free Pixel Art Forest/Pixel Forest.jpg.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller
+    - Assets/Main Menu.unity
+    - Assets/Main Menu.unity.meta
+    - Assets/Scenes/Forest.unity
+    - Assets/Scenes/Forest.unity.meta
     - Assets/Scenes/Hill_Battle_Scene.unity
     - Assets/Scenes/Main Menu.unity
+    - Assets/Spawns/HeavyKnight.prefab
+    - Assets/Spawns/Player.prefab
     - Assets/UnitAttributes.cs
-    - Assets/test.cs
-    - Assets/test.cs.meta
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
