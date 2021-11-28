@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{CCE9EB70-9463-6EBB-1B29-CB4A033AE457}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Map.cs">
     <Files>
-      <File FileName="Assets/Engine.cs" Line="84" Column="6" />
-      <File FileName="Assets/UnitAttributes.cs" Line="26" Column="1" />
+      <File FileName="Assets/Engine.cs" Line="46" Column="71" />
+      <File FileName="Assets/UnitAttributes.cs" />
+      <File FileName="../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.targets" Line="186" Column="5" />
+      <File FileName="Assets/MainMenu.cs" Line="4" Column="1" />
+      <File FileName="Assets/Map.cs" Line="8" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RL-Game" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Engine.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="RL-Game" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
