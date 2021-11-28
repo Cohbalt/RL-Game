@@ -25,7 +25,7 @@ public class BattleEngine : MonoBehaviour
     public List<GameObject> enemies;
     public GameObject hero;
 
-    public GameObject map;
+    //public GameObject map;
     public int currentIndex;
     private List<int> Attacks;
     private List<UnitAttributes> Targets;

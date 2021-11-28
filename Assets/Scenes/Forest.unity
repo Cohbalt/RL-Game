@@ -1358,7 +1358,6 @@ MonoBehaviour:
   - {fileID: 7144265908035673613, guid: 1673493b6eef9d645b62b01331a680c6, type: 3}
   - {fileID: 8971096792358999577, guid: 623d2de500a576442a4f2d1a7144e59a, type: 3}
   hero: {fileID: 7238652128984893987, guid: 10746e1b9936c704caf0ca4fa3cb01eb, type: 3}
-  map: {fileID: 0}
   currentIndex: 0
   playerSpawn: {fileID: 221198831}
   backgroundAnchor: {fileID: 370320597}
@@ -1690,7 +1689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 73.33499}
+  m_AnchoredPosition: {x: 0, y: 73}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953489478
