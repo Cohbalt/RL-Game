@@ -1341,7 +1341,7 @@ MonoBehaviour:
   backgroundSelector: 0
   enemyPrefab1: {fileID: 7144265908035673613, guid: 1673493b6eef9d645b62b01331a680c6, type: 3}
   enemyPrefab2: {fileID: 7144265908035673613, guid: 1673493b6eef9d645b62b01331a680c6, type: 3}
-  enemyPrefab3: {fileID: 7238652128984893987, guid: 10746e1b9936c704caf0ca4fa3cb01eb, type: 3}
+  enemyPrefab3: {fileID: 8971096792358999577, guid: 623d2de500a576442a4f2d1a7144e59a, type: 3}
   background: {fileID: 0}
   backgroundPrefab: {fileID: 2731998990622130394, guid: a51a29bfdd2e54da5b338ebbd6cf988d, type: 3}
   playerPrefab: {fileID: 7238652128984893987, guid: 10746e1b9936c704caf0ca4fa3cb01eb, type: 3}
@@ -1351,6 +1351,15 @@ MonoBehaviour:
   enemy3GO: {fileID: 0}
   endTurnButton: {fileID: 953489476}
   attackButton: {fileID: 1214479446}
+  backgrounds:
+  - {fileID: 2789570240032465115, guid: 2da82925250be3a43a465239d4a431a7, type: 3}
+  - {fileID: 2731998990622130394, guid: a51a29bfdd2e54da5b338ebbd6cf988d, type: 3}
+  enemies:
+  - {fileID: 7144265908035673613, guid: 1673493b6eef9d645b62b01331a680c6, type: 3}
+  - {fileID: 8971096792358999577, guid: 623d2de500a576442a4f2d1a7144e59a, type: 3}
+  hero: {fileID: 7238652128984893987, guid: 10746e1b9936c704caf0ca4fa3cb01eb, type: 3}
+  map: {fileID: 0}
+  currentIndex: 0
   playerSpawn: {fileID: 221198831}
   backgroundAnchor: {fileID: 370320597}
   enemySpawn1: {fileID: 502610241}
@@ -2332,49 +2341,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214479446}
   m_CullTransparentMesh: 1
---- !u!1 &1273612045
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1273612047}
-  - component: {fileID: 1273612046}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1273612046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273612045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3aee8935af2c4f8da0fc06cabac3acd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1273612047
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273612045}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315498975
 GameObject:
   m_ObjectHideFlags: 0

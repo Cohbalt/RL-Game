@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 1b485666139664c22b72cb0e573d7222
+  - enabled: 1
+    path: Assets/Scenes/Hill_Battle_Scene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Main Menu.unity
+    guid: a258b0f0a9a8a45738166fe681cc1288
+  m_configObjects: {}
