@@ -20,6 +20,9 @@ public class BattleEngine : MonoBehaviour
     public GameObject playerGO, enemy1GO, enemy2GO, enemy3GO;
     public GameObject endTurnButton, attackButton;
     int attackCount;
+    public int stage = 0;
+
+    public Map map = new Map();
 
     public List<GameObject> backgrounds;
     public List<GameObject> enemies;
@@ -44,6 +47,7 @@ public class BattleEngine : MonoBehaviour
 
     void Start()
     {
+        background = Instantiate(backgrounds[map.tiles[stage].background], backgroundAnchor);
         currentIndex = 0;
         state = allStates.START;
         StartCoroutine(startBattle());
@@ -51,11 +55,13 @@ public class BattleEngine : MonoBehaviour
 
     IEnumerator startBattle()
     {
+        stage++;
         playerGO = Instantiate(playerPrefab, playerSpawn);
         playerUnit = playerGO.GetComponent<UnitAttributes>();
-        currhp.text = playerUnit.unitCurrentHealth.ToString() + "/" + playerUnit.unitMaxHealth.ToString();
+       
+        /*currhp.text = playerUnit.unitCurrentHealth.ToString() + "/" + playerUnit.unitMaxHealth.ToString();
         lck.text = playerUnit.unitLuck.ToString();
-        lvl.text = playerUnit.unitLevel.ToString();
+        lvl.text = playerUnit.unitLevel.ToString();*/
 
 
         if (enemyTrue1)

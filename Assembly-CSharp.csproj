@@ -59,15 +59,12 @@
     <Compile Include="Assets/BattleEngine.cs" />
     <Compile Include="Assets/GlobalStuff.cs" />
     <Compile Include="Assets/Bandits - Pixel Art/Demo/Sensor_Bandit.cs" />
-    <Compile Include="Assets/Tile.cs" />
     <Compile Include="Assets/MainMenu.cs" />
-    <Compile Include="Assets/test.cs" />
     <Compile Include="Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
     <Compile Include="Assets/UnitAttributes.cs" />
     <Compile Include="Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets/Map.cs" />
-    <Compile Include="Assets/Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Free Pixel Art Hills/Lisense.txt" />

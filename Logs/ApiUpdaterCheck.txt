@@ -208,3 +208,23 @@ C# parse time         : 211ms
 candidates check time : 29ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 11/28/2021 7:55:25 PM : Starting /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 131.115ms
+moved types parse time: 52ms
+candidates parse time : 1ms
+C# parse time         : 274ms
+candidates check time : 40ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 11/28/2021 8:10:33 PM : Starting /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 119.65ms
+moved types parse time: 51ms
+candidates parse time : 1ms
+C# parse time         : 248ms
+candidates check time : 29ms
+console write time    : 0ms
+

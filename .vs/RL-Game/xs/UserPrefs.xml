@@ -1,41 +1,24 @@
 ﻿<Properties StartupConfiguration="{CCE9EB70-9463-6EBB-1B29-CB4A033AE457}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BattleEngine.cs">
     <Files>
-      <File FileName="Assets/Map.cs" Line="3" Column="16" />
-      <File FileName="Assets/BattleEngine.cs" Line="50" Column="1" />
-      <File FileName="Assets/Tile.cs" Line="15" Column="37" />
-      <File FileName="Assets/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Map.cs" Line="39" Column="26" />
+      <File FileName="Assets/BattleEngine.cs" Line="48" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RL-Game" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Hero Knight - Pixel Art" expanded="True">
-                <Node name="ColorSwap" expanded="True" />
-              </Node>
-              <Node name="Enemy.cs" selected="True" />
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db30f89d-72a3-45f7-b7db-c6a234bee964" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8981ca68-db02-4114-93b5-49004e83e1ad" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/aaronhervey/RL-Game/Assets/Map.cs" relfile="Assets/Map.cs" line="12" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
