@@ -14,8 +14,82 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - .collabignore
+    - Assets/Bandits - Pixel Art.meta
+    - Assets/Bandits - Pixel Art/Animations.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_AnimController.overrideController
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_AnimController.overrideController.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Attack.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Attack.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_CombatIdle.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_CombatIdle.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Death.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Death.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Hurt.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Hurt.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Idle.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Idle.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Jump.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Jump.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Recover.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Recover.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Run.anim
+    - Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Run.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Attack.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Attack.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_CombatIdle.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_CombatIdle.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Death.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Death.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Hurt.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Hurt.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Idle.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Idle.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Jump.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Jump.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Recover.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Recover.anim.meta
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Run.anim
+    - Assets/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Run.anim.meta
+    - Assets/Bandits - Pixel Art/Demo.meta
+    - Assets/Bandits - Pixel Art/Demo/Bandit.cs
+    - Assets/Bandits - Pixel Art/Demo/Bandit.cs.meta
+    - Assets/Bandits - Pixel Art/Demo/Demo.unity
+    - Assets/Bandits - Pixel Art/Demo/Demo.unity.meta
+    - Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab
+    - Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab.meta
+    - Assets/Bandits - Pixel Art/Demo/LightBandit.prefab
+    - Assets/Bandits - Pixel Art/Demo/LightBandit.prefab.meta
+    - Assets/Bandits - Pixel Art/Demo/Sensor_Bandit.cs
+    - Assets/Bandits - Pixel Art/Demo/Sensor_Bandit.cs.meta
+    - Assets/Bandits - Pixel Art/Environment.meta
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab.meta
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_0.asset
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_0.asset.meta
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_1.asset
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_1.asset.meta
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_2.asset
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_2.asset.meta
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_3.asset
+    - Assets/Bandits - Pixel Art/Environment/EnvironmentTiles_3.asset.meta
+    - Assets/Bandits - Pixel Art/Sprites.meta
+    - Assets/Bandits - Pixel Art/Sprites/Background.png
+    - Assets/Bandits - Pixel Art/Sprites/Background.png.meta
+    - Assets/Bandits - Pixel Art/Sprites/EnvironmentTiles.png
+    - Assets/Bandits - Pixel Art/Sprites/EnvironmentTiles.png.meta
+    - Assets/Bandits - Pixel Art/Sprites/HeavyBandit.png
+    - Assets/Bandits - Pixel Art/Sprites/HeavyBandit.png.meta
+    - Assets/Bandits - Pixel Art/Sprites/LightBandit.png
+    - Assets/Bandits - Pixel Art/Sprites/LightBandit.png.meta
     - Assets/BattleEngine.cs
     - Assets/BattleEngine.cs.meta
+    - Assets/BattleHud.psd
+    - Assets/BattleHud.psd.meta
     - Assets/Cursors.meta
     - Assets/Cursors/Cursors 256.meta
     - Assets/Cursors/Cursors 256/Arrow.png
@@ -189,132 +263,586 @@ MonoBehaviour:
     - Assets/Cursors/Cursors 64/G_Cursor_shoot.png.meta
     - Assets/Cursors/Demo.unity
     - Assets/Cursors/Demo.unity.meta
-    - Assets/Enemy.cs
-    - Assets/Enemy.cs.meta
-    - Assets/Forest.unity
+    - Assets/Free Pixel Art Forest.meta
+    - Assets/Free Pixel Art Forest/Contact.txt
+    - Assets/Free Pixel Art Forest/Contact.txt.meta
     - Assets/Free Pixel Art Forest/Pixel Forest Variant.prefab
+    - Assets/Free Pixel Art Forest/Pixel Forest Variant.prefab.meta
     - Assets/Free Pixel Art Forest/Pixel Forest.jpg
+    - Assets/Free Pixel Art Forest/Pixel Forest.jpg.meta
+    - Assets/Free Pixel Art Forest/Pixel Forest.psb
+    - Assets/Free Pixel Art Forest/Pixel Forest.psb.meta
+    - Assets/Free Pixel Art Forest/Preview.meta
+    - Assets/Free Pixel Art Forest/Preview/Background.png
+    - Assets/Free Pixel Art Forest/Preview/Background.png.meta
+    - Assets/Free Pixel Art Hills.meta
+    - Assets/Free Pixel Art Hills/Demo.meta
+    - Assets/Free Pixel Art Hills/Demo/Background Example 2.unity
+    - Assets/Free Pixel Art Hills/Demo/Background Example 2.unity.meta
+    - Assets/Free Pixel Art Hills/Demo/MoveBackground.cs
+    - Assets/Free Pixel Art Hills/Demo/MoveBackground.cs.meta
     - Assets/Free Pixel Art Hills/HillBackground.prefab
     - Assets/Free Pixel Art Hills/HillBackground.prefab.meta
+    - Assets/Free Pixel Art Hills/Lisense.txt
+    - Assets/Free Pixel Art Hills/Lisense.txt.meta
+    - Assets/Free Pixel Art Hills/PNG.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0000_9.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0000_9.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0001_8.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0001_8.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0002_7.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0002_7.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0003_6.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0003_6.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0004_Lights.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0004_Lights.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0005_5.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0005_5.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0006_4.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0006_4.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0007_Lights.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0007_Lights.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0008_3.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0008_3.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0009_2.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0009_2.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0010_1.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0010_1.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0011_0.png
+    - Assets/Free Pixel Art Hills/PNG/Background layers/Layer_0011_0.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 01.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 01.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 01B.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 01B.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 02.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 02.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 03.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 03.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 04.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 04.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 05.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 05.png.meta
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 06.png
+    - Assets/Free Pixel Art Hills/PNG/Hills Layer 06.png.meta
+    - Assets/Free Pixel Art Hills/PREVIEWS.meta
+    - Assets/Free Pixel Art Hills/PREVIEWS/Hills Free (update 3.0).png
+    - Assets/Free Pixel Art Hills/PREVIEWS/Hills Free (update 3.0).png.meta
+    - Assets/Free Pixel Art Hills/PSD.meta
+    - Assets/Free Pixel Art Hills/PSD/Background.psd
+    - Assets/Free Pixel Art Hills/PSD/Background.psd.meta
+    - Assets/Free Pixel Art Hills/You may also like.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Forest.png
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Forest.png.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Plataformer Painted
+      Style.png
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Plataformer Painted
+      Style.png.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Runner.png
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Runner.png.meta
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Snowy Forest.png
+    - Assets/Free Pixel Art Hills/You may also like/Pixel Art Snowy Forest.png.meta
+    - Assets/Free Pixel Art Hills/readme.txt
+    - Assets/Free Pixel Art Hills/readme.txt.meta
     - Assets/GlobalStuff.cs
     - Assets/GlobalStuff.cs.meta
+    - Assets/Hero Knight - Pixel Art.meta
+    - Assets/Hero Knight - Pixel Art/Animations.meta
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash.anim
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.anim
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.controller
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.controller.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader
+    - Assets/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/swap_texture.png
+    - Assets/Hero Knight - Pixel Art/ColorSwap/swap_texture.png.meta
+    - Assets/Hero Knight - Pixel Art/Demo.meta
+    - Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/Demo.unity
+    - Assets/Hero Knight - Pixel Art/Demo/Demo.unity.meta
+    - Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Environment.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D
+    - Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D.meta
+    - Assets/Hero Knight - Pixel Art/Sprites.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/Background.png
+    - Assets/Hero Knight - Pixel Art/Sprites/Background.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png
+    - Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png
+    - Assets/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png
+    - Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png.meta
+    - Assets/Icons.meta
+    - Assets/Icons/167-1672614_shield-silver-pixel-shield-png.png
+    - Assets/Icons/167-1672614_shield-silver-pixel-shield-png.png.meta
+    - Assets/Icons/340-3401417_sapphire-detailed-knights-sword-art-pixel-demon-sword.png
+    - Assets/Icons/340-3401417_sapphire-detailed-knights-sword-art-pixel-demon-sword.png.meta
+    - Assets/Icons/Png.meta
     - Assets/Icons/Png/apple.png
+    - Assets/Icons/Png/apple.png.meta
     - Assets/Icons/Png/arrow_1.png
+    - Assets/Icons/Png/arrow_1.png.meta
     - Assets/Icons/Png/arrow_2.png
+    - Assets/Icons/Png/arrow_2.png.meta
     - Assets/Icons/Png/arrow_3.png
+    - Assets/Icons/Png/arrow_3.png.meta
     - Assets/Icons/Png/arrow_4.png
+    - Assets/Icons/Png/arrow_4.png.meta
     - Assets/Icons/Png/arrow_5.png
+    - Assets/Icons/Png/arrow_5.png.meta
     - Assets/Icons/Png/arrow_6.png
+    - Assets/Icons/Png/arrow_6.png.meta
     - Assets/Icons/Png/balloon.png
+    - Assets/Icons/Png/balloon.png.meta
     - Assets/Icons/Png/banana.png
+    - Assets/Icons/Png/banana.png.meta
     - Assets/Icons/Png/beer.png
+    - Assets/Icons/Png/beer.png.meta
     - Assets/Icons/Png/bell.png
+    - Assets/Icons/Png/bell.png.meta
     - Assets/Icons/Png/blue_liquid.png
+    - Assets/Icons/Png/blue_liquid.png.meta
     - Assets/Icons/Png/bread.png
+    - Assets/Icons/Png/bread.png.meta
     - Assets/Icons/Png/broccoli.png
+    - Assets/Icons/Png/broccoli.png.meta
     - Assets/Icons/Png/buck.png
+    - Assets/Icons/Png/buck.png.meta
     - Assets/Icons/Png/burger.png
+    - Assets/Icons/Png/burger.png.meta
     - Assets/Icons/Png/burrito.png
+    - Assets/Icons/Png/burrito.png.meta
     - Assets/Icons/Png/cake.png
+    - Assets/Icons/Png/cake.png.meta
     - Assets/Icons/Png/car.png
+    - Assets/Icons/Png/car.png.meta
     - Assets/Icons/Png/catering.png
+    - Assets/Icons/Png/catering.png.meta
     - Assets/Icons/Png/caution.png
+    - Assets/Icons/Png/caution.png.meta
     - Assets/Icons/Png/check_mark.png
+    - Assets/Icons/Png/check_mark.png.meta
     - Assets/Icons/Png/cheess.png
+    - Assets/Icons/Png/cheess.png.meta
     - Assets/Icons/Png/chest.png
+    - Assets/Icons/Png/chest.png.meta
     - Assets/Icons/Png/chicken.png
+    - Assets/Icons/Png/chicken.png.meta
     - Assets/Icons/Png/clock.png
+    - Assets/Icons/Png/clock.png.meta
     - Assets/Icons/Png/cloud.png
+    - Assets/Icons/Png/cloud.png.meta
     - Assets/Icons/Png/coin.png
+    - Assets/Icons/Png/coin.png.meta
     - Assets/Icons/Png/compass.png
+    - Assets/Icons/Png/compass.png.meta
     - Assets/Icons/Png/cow.png
+    - Assets/Icons/Png/cow.png.meta
     - Assets/Icons/Png/crab.png
+    - Assets/Icons/Png/crab.png.meta
     - Assets/Icons/Png/cracked_heart.png
+    - Assets/Icons/Png/cracked_heart.png.meta
     - Assets/Icons/Png/crown.png
+    - Assets/Icons/Png/crown.png.meta
     - Assets/Icons/Png/cruelty_free.png
+    - Assets/Icons/Png/cruelty_free.png.meta
     - Assets/Icons/Png/cup.png
+    - Assets/Icons/Png/cup.png.meta
     - Assets/Icons/Png/display.png
+    - Assets/Icons/Png/display.png.meta
     - Assets/Icons/Png/emerald.png
+    - Assets/Icons/Png/emerald.png.meta
     - Assets/Icons/Png/envelope.png
+    - Assets/Icons/Png/envelope.png.meta
     - Assets/Icons/Png/female.png
+    - Assets/Icons/Png/female.png.meta
     - Assets/Icons/Png/fire.png
+    - Assets/Icons/Png/fire.png.meta
     - Assets/Icons/Png/fireguard.png
+    - Assets/Icons/Png/fireguard.png.meta
     - Assets/Icons/Png/fish.png
+    - Assets/Icons/Png/fish.png.meta
     - Assets/Icons/Png/fist.png
+    - Assets/Icons/Png/fist.png.meta
     - Assets/Icons/Png/flag.png
+    - Assets/Icons/Png/flag.png.meta
     - Assets/Icons/Png/forbidden.png
+    - Assets/Icons/Png/forbidden.png.meta
     - Assets/Icons/Png/forbidden_2.png
+    - Assets/Icons/Png/forbidden_2.png.meta
     - Assets/Icons/Png/fork_knife.png
+    - Assets/Icons/Png/fork_knife.png.meta
     - Assets/Icons/Png/french_fries.png
+    - Assets/Icons/Png/french_fries.png.meta
     - Assets/Icons/Png/golden_cup.png
+    - Assets/Icons/Png/golden_cup.png.meta
     - Assets/Icons/Png/green_liquid.png
+    - Assets/Icons/Png/green_liquid.png.meta
     - Assets/Icons/Png/green_sprout.png
+    - Assets/Icons/Png/green_sprout.png.meta
     - Assets/Icons/Png/half_heart.png
+    - Assets/Icons/Png/half_heart.png.meta
     - Assets/Icons/Png/heart.png
+    - Assets/Icons/Png/heart.png.meta
     - Assets/Icons/Png/heart_arrow.png
+    - Assets/Icons/Png/heart_arrow.png.meta
     - Assets/Icons/Png/honey.png
+    - Assets/Icons/Png/honey.png.meta
     - Assets/Icons/Png/hourglass.png
+    - Assets/Icons/Png/hourglass.png.meta
     - Assets/Icons/Png/ice_cream.png
+    - Assets/Icons/Png/ice_cream.png.meta
     - Assets/Icons/Png/key.png
+    - Assets/Icons/Png/key.png.meta
     - Assets/Icons/Png/key_2.png
+    - Assets/Icons/Png/key_2.png.meta
     - Assets/Icons/Png/kings_hat.png
+    - Assets/Icons/Png/kings_hat.png.meta
     - Assets/Icons/Png/lemonade.png
+    - Assets/Icons/Png/lemonade.png.meta
     - Assets/Icons/Png/lightning.png
+    - Assets/Icons/Png/lightning.png.meta
     - Assets/Icons/Png/lock.png
+    - Assets/Icons/Png/lock.png.meta
     - Assets/Icons/Png/magnet.png
+    - Assets/Icons/Png/magnet.png.meta
     - Assets/Icons/Png/male.png
+    - Assets/Icons/Png/male.png.meta
     - Assets/Icons/Png/medal.png
+    - Assets/Icons/Png/medal.png.meta
     - Assets/Icons/Png/medal_2.png
+    - Assets/Icons/Png/medal_2.png.meta
     - Assets/Icons/Png/middle_finger.png
+    - Assets/Icons/Png/middle_finger.png.meta
     - Assets/Icons/Png/mountain_top.png
+    - Assets/Icons/Png/mountain_top.png.meta
     - Assets/Icons/Png/muffin.png
+    - Assets/Icons/Png/muffin.png.meta
     - Assets/Icons/Png/no_meat.png
+    - Assets/Icons/Png/no_meat.png.meta
     - Assets/Icons/Png/noodle.png
+    - Assets/Icons/Png/noodle.png.meta
     - Assets/Icons/Png/open_chest.png
+    - Assets/Icons/Png/open_chest.png.meta
     - Assets/Icons/Png/open_lock.png
+    - Assets/Icons/Png/open_lock.png.meta
     - Assets/Icons/Png/palm.png
+    - Assets/Icons/Png/palm.png.meta
     - Assets/Icons/Png/pizza.png
+    - Assets/Icons/Png/pizza.png.meta
     - Assets/Icons/Png/plane.png
+    - Assets/Icons/Png/plane.png.meta
     - Assets/Icons/Png/pointing_finger.png
+    - Assets/Icons/Png/pointing_finger.png.meta
     - Assets/Icons/Png/police.png
+    - Assets/Icons/Png/police.png.meta
     - Assets/Icons/Png/question_help.png
+    - Assets/Icons/Png/question_help.png.meta
     - Assets/Icons/Png/recycle_arrows.png
+    - Assets/Icons/Png/recycle_arrows.png.meta
     - Assets/Icons/Png/red_cross.png
+    - Assets/Icons/Png/red_cross.png.meta
     - Assets/Icons/Png/red_liquid.png
+    - Assets/Icons/Png/red_liquid.png.meta
     - Assets/Icons/Png/ruby.png
+    - Assets/Icons/Png/ruby.png.meta
     - Assets/Icons/Png/safe.png
+    - Assets/Icons/Png/safe.png.meta
     - Assets/Icons/Png/salad.png
+    - Assets/Icons/Png/salad.png.meta
     - Assets/Icons/Png/shield.png
+    - Assets/Icons/Png/shield.png.meta
     - Assets/Icons/Png/skull.png
+    - Assets/Icons/Png/skull.png.meta
     - Assets/Icons/Png/smartphone.png
+    - Assets/Icons/Png/smartphone.png.meta
     - Assets/Icons/Png/star.png
+    - Assets/Icons/Png/star.png.meta
     - Assets/Icons/Png/stars.png
+    - Assets/Icons/Png/stars.png.meta
     - Assets/Icons/Png/sunglasses.png
+    - Assets/Icons/Png/sunglasses.png.meta
     - Assets/Icons/Png/tea.png
+    - Assets/Icons/Png/tea.png.meta
     - Assets/Icons/Png/thumbs_down.png
+    - Assets/Icons/Png/thumbs_down.png.meta
     - Assets/Icons/Png/thumbs_up.png
+    - Assets/Icons/Png/thumbs_up.png.meta
     - Assets/Icons/Png/treasure_chest.png
+    - Assets/Icons/Png/treasure_chest.png.meta
     - Assets/Icons/Png/tree.png
+    - Assets/Icons/Png/tree.png.meta
     - Assets/Icons/Png/unicorn.png
+    - Assets/Icons/Png/unicorn.png.meta
     - Assets/Icons/Png/victory.png
+    - Assets/Icons/Png/victory.png.meta
     - Assets/Icons/Png/wall.png
+    - Assets/Icons/Png/wall.png.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe17d05420 1.jpg
+    - Assets/Icons/[GetPaidStock.com]-619fe17d05420 1.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe17d05420.jpg
+    - Assets/Icons/[GetPaidStock.com]-619fe17d05420.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88.jpg
+    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88_adobespark.png
+    - Assets/Icons/[GetPaidStock.com]-619fe21cbcb88_adobespark.png.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe3cce75f2.jpg
+    - Assets/Icons/[GetPaidStock.com]-619fe3cce75f2.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe48de2ddb.jpg
+    - Assets/Icons/[GetPaidStock.com]-619fe48de2ddb.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.jpg
+    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.png
+    - Assets/Icons/[GetPaidStock.com]-619fe49fefdc2.png.meta
+    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64.jpg
+    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64.jpg.meta
+    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64_adobespark.png
+    - Assets/Icons/[GetPaidStock.com]-619ff4d341e64_adobespark.png.meta
+    - Assets/Icons/_GetPaidStock.com_-619fe48de2ddb-removebg-preview.png
+    - Assets/Icons/_GetPaidStock.com_-619fe48de2ddb-removebg-preview.png.meta
     - Assets/Icons/icons8-minecraft-sword-96.png
-    - Assets/Main Menu.unity
-    - Assets/Main Menu.unity.meta
+    - Assets/Icons/icons8-minecraft-sword-96.png.meta
+    - Assets/Icons/sword.webp
+    - Assets/Icons/sword.webp.meta
+    - Assets/MainMenu.cs
+    - Assets/MainMenu.cs.meta
     - Assets/Map.cs
+    - Assets/Map.cs.meta
+    - Assets/Orange kid.ttf
+    - Assets/Orange kid.ttf.meta
+    - Assets/Scenes.meta
     - Assets/Scenes/Forest.unity
+    - Assets/Scenes/Forest.unity.meta
     - Assets/Scenes/Hill_Battle_Scene.unity
+    - Assets/Scenes/Hill_Battle_Scene.unity.meta
     - Assets/Scenes/Main Menu.unity
+    - Assets/Scenes/Main Menu.unity.meta
+    - Assets/Scenes/TitleScreen.unity
+    - Assets/Scenes/TitleScreen.unity.meta
+    - Assets/Spawns.meta
+    - Assets/Spawns/Enemy.prefab
+    - Assets/Spawns/Enemy.prefab.meta
     - Assets/Spawns/HeavyKnight.prefab
+    - Assets/Spawns/HeavyKnight.prefab.meta
     - Assets/Spawns/LightBandit.prefab
     - Assets/Spawns/LightBandit.prefab.meta
+    - Assets/Spawns/Map.prefab
+    - Assets/Spawns/Map.prefab.meta
     - Assets/Spawns/Player.prefab
-    - Assets/Tile.cs
-    - Assets/Tile.cs.meta
+    - Assets/Spawns/Player.prefab.meta
+    - Assets/Spawns/Tile.prefab
+    - Assets/Spawns/Tile.prefab.meta
+    - Assets/UI.psb
+    - Assets/UI.psb.meta
     - Assets/UnitAttributes.cs
+    - Assets/UnitAttributes.cs.meta
+    - Assets/easy UI emerald - default.psd
+    - Assets/easy UI emerald - default.psd.meta
+    - Assets/easy UI emerald - default.unity
+    - Assets/easy UI emerald - default.unity.meta
+    - Assets/resource_default.meta
+    - Assets/resource_default/box_a.png
+    - Assets/resource_default/box_a.png.meta
+    - Assets/resource_default/box_a_01.png
+    - Assets/resource_default/box_a_01.png.meta
+    - Assets/resource_default/box_a_02.png
+    - Assets/resource_default/box_a_02.png.meta
+    - Assets/resource_default/box_a_03.png
+    - Assets/resource_default/box_a_03.png.meta
+    - Assets/resource_default/box_a_04.png
+    - Assets/resource_default/box_a_04.png.meta
+    - Assets/resource_default/box_b.png
+    - Assets/resource_default/box_b.png.meta
+    - Assets/resource_default/box_b_01.png
+    - Assets/resource_default/box_b_01.png.meta
+    - Assets/resource_default/box_b_02.png
+    - Assets/resource_default/box_b_02.png.meta
+    - Assets/resource_default/box_b_03.png
+    - Assets/resource_default/box_b_03.png.meta
+    - Assets/resource_default/box_b_04.png
+    - Assets/resource_default/box_b_04.png.meta
+    - Assets/resource_default/box_c.png
+    - Assets/resource_default/box_c.png.meta
+    - Assets/resource_default/box_c_01.png
+    - Assets/resource_default/box_c_01.png.meta
+    - Assets/resource_default/box_c_02.png
+    - Assets/resource_default/box_c_02.png.meta
+    - Assets/resource_default/box_c_03.png
+    - Assets/resource_default/box_c_03.png.meta
+    - Assets/resource_default/box_c_04.png
+    - Assets/resource_default/box_c_04.png.meta
+    - Assets/resource_default/btn_a_beige.png
+    - Assets/resource_default/btn_a_beige.png.meta
+    - Assets/resource_default/btn_a_emerald.png
+    - Assets/resource_default/btn_a_emerald.png.meta
+    - Assets/resource_default/btn_a_grey.png
+    - Assets/resource_default/btn_a_grey.png.meta
+    - Assets/resource_default/btn_a_red.png
+    - Assets/resource_default/btn_a_red.png.meta
+    - Assets/resource_default/btn_b_beige.png
+    - Assets/resource_default/btn_b_beige.png.meta
+    - Assets/resource_default/btn_b_emerald.png
+    - Assets/resource_default/btn_b_emerald.png.meta
+    - Assets/resource_default/btn_b_grey.png
+    - Assets/resource_default/btn_b_grey.png.meta
+    - Assets/resource_default/btn_b_red.png
+    - Assets/resource_default/btn_b_red.png.meta
+    - Assets/resource_default/btn_c_beige.png
+    - Assets/resource_default/btn_c_beige.png.meta
+    - Assets/resource_default/btn_c_emerald.png
+    - Assets/resource_default/btn_c_emerald.png.meta
+    - Assets/resource_default/btn_c_grey.png
+    - Assets/resource_default/btn_c_grey.png.meta
+    - Assets/resource_default/btn_c_red.png
+    - Assets/resource_default/btn_c_red.png.meta
+    - Assets/resource_default/checkbox_blank.png
+    - Assets/resource_default/checkbox_blank.png.meta
+    - Assets/resource_default/checkbox_check.png
+    - Assets/resource_default/checkbox_check.png.meta
+    - Assets/resource_default/divider_a.png
+    - Assets/resource_default/divider_a.png.meta
+    - Assets/resource_default/gage_a_empty.png
+    - Assets/resource_default/gage_a_empty.png.meta
+    - Assets/resource_default/gage_b_empty.png
+    - Assets/resource_default/gage_b_empty.png.meta
+    - Assets/resource_default/gage_b_fill01.png
+    - Assets/resource_default/gage_b_fill01.png.meta
+    - Assets/resource_default/gage_b_fill02.png
+    - Assets/resource_default/gage_b_fill02.png.meta
+    - Assets/resource_default/gage_b_fill03.png
+    - Assets/resource_default/gage_b_fill03.png.meta
+    - Assets/resource_default/gage_b_fill04.png
+    - Assets/resource_default/gage_b_fill04.png.meta
+    - Assets/resource_default/gage_b_fill05.png
+    - Assets/resource_default/gage_b_fill05.png.meta
+    - Assets/resource_default/gage_b_fill06.png
+    - Assets/resource_default/gage_b_fill06.png.meta
+    - Assets/resource_default/gage_b_fill07.png
+    - Assets/resource_default/gage_b_fill07.png.meta
+    - Assets/resource_default/gage_b_fill08.png
+    - Assets/resource_default/gage_b_fill08.png.meta
+    - Assets/resource_default/gage_b_fill_progress.png
+    - Assets/resource_default/gage_b_fill_progress.png.meta
+    - Assets/resource_default/icon_arrowdown.png
+    - Assets/resource_default/icon_arrowdown.png.meta
+    - Assets/resource_default/innerbox_a.png
+    - Assets/resource_default/innerbox_a.png.meta
+    - Assets/resource_default/innerbox_a_btn.png
+    - Assets/resource_default/innerbox_a_btn.png.meta
+    - Assets/resource_default/innerbox_a_btn_01.png
+    - Assets/resource_default/innerbox_a_btn_01.png.meta
+    - Assets/resource_default/innerbox_a_btn_02.png
+    - Assets/resource_default/innerbox_a_btn_02.png.meta
+    - Assets/resource_default/innerbox_a_btn_03.png
+    - Assets/resource_default/innerbox_a_btn_03.png.meta
+    - Assets/resource_default/innerbox_a_btn_04.png
+    - Assets/resource_default/innerbox_a_btn_04.png.meta
+    - Assets/resource_default/point_beige.png
+    - Assets/resource_default/point_beige.png.meta
+    - Assets/resource_default/radio_blank.png
+    - Assets/resource_default/radio_blank.png.meta
+    - Assets/resource_default/radio_check.png
+    - Assets/resource_default/radio_check.png.meta
+    - Assets/resource_default/textinput_a.png
+    - Assets/resource_default/textinput_a.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
     - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

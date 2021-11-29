@@ -192,10 +192,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Hero
-  unitMaxHealth: 10
-  unitCurrentHealth: 10
-  unitLuck: 0
+  unitMaxHealth: 100
+  unitCurrentHealth: 100
+  unitLuck: 5
   unitLevel: 0
-  numAttacks: 0
-  attack: 2
-  defense: 0
+  numAttacks: 3
+  unitAttack: 10
+  unitDefense: 0

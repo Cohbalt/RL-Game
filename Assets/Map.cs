@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = System.Random;
 
 public class Map
 {
     public List<Tile> tiles = new List<Tile>();
 
-    public Map()
+    public void randomizeMap(int difficulty = 1)
     {
         for (int i = 0; i < 5; i++)
         {
-            Tile temp = new Tile(i + 1);
+            Tile temp = new Tile();
+            temp.randomizeTile((i + 1) * 5);
             tiles.Add(temp);
         }
     }
@@ -22,51 +22,59 @@ public class Map
         public List<Enemy> enemies;
         public List<int> enemyTrue;
 
-        public Tile(int thresh)
+        public void randomizeTile(int thresh)
         {
-            this.thresh = thresh;
-            Random rnd = new Random();
-            background = rnd.Next(0, 1);
+            enemyTrue = new List<int>();
+            enemies = new List<Enemy>();
+            background = Random.Range(0, 2);
 
-            /*for (int i = 0; i < enemies.Count; i++)
+            for (int i = 0; i < 3; i++)
             {
+
                 if (i != 1)
                 {
-                    enemyTrue[i] = rnd.Next(0, 1);
+                    enemyTrue.Add(Random.Range(0, 2));
                 }
                 else
                 {
-                    enemyTrue[i] = 1;
+                    enemyTrue.Add(1);
                 }
 
-                if (enemyTrue[i] == 1)
-                {
-                    enemies[i].En
-                }
-            }*/
-        }
-
-    }
-
-    public class Enemy
-    {
-        int health;
-        int max;
-        int luck;
-        int attack;
-        int defense;
-        int numAttacks;
-        //GameObject enemType;
-        Enemy(int i)
+                Enemy temp = new Enemy();
+                temp.randomizeEnemy(thresh);
+                enemies.Add(temp);
+            }
+        }   
+        public class Enemy
         {
-            max = i;
-            Random rnd = new Random();
-            health = rnd.Next(1, max);
-            luck = rnd.Next(1, max);
-            attack = rnd.Next(1, max);
-            defense = rnd.Next(1, max);
-            numAttacks = rnd.Next(1, max);
+            int health;
+            int luck;
+            int attack;
+            int defense;
+            int numAttacks;
+            public int enemyType;
+            public List<int> stats;
+            
+            public void randomizeEnemy(int thresh)
+            {
+                stats = new List<int>();
+
+                health = Random.Range(1, thresh + 1);
+                luck = Random.Range(1, thresh + 1);
+                attack = Random.Range(1, thresh + 1);
+                defense = Random.Range(1, thresh + 1);
+                numAttacks = Random.Range(1, thresh + 1);
+                enemyType = Random.Range(0, 2);
+
+                stats.Add(health);
+                stats.Add(luck);
+                stats.Add(attack);
+                stats.Add(defense);
+            }
 
         }
+
+
     }
+
 }

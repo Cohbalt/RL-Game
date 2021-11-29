@@ -8,8 +8,6 @@ public class UnitAttributes : MonoBehaviour
     public int unitMaxHealth;
     public int unitCurrentHealth;
     public int unitLuck;
-    public int unitLevel;
-    public int numAttacks;
     public int unitAttack;
     public int unitDefense;
     
@@ -31,14 +29,13 @@ public class UnitAttributes : MonoBehaviour
 
     }
 
-    public void setStats(int health, int luck, int level, int attack, int defense, int numAttacks)
+    public void setStats(List<int> stats)
     {
-        unitMaxHealth = health;
-        unitCurrentHealth = health;
-        unitLuck = luck;
-        unitLevel = level;
-        unitAttack = attack;
-        unitDefense = defense;
+        unitMaxHealth = stats[0];
+        unitCurrentHealth = stats[0];
+        unitLuck = stats[1];
+        unitAttack = stats[2];
+        unitDefense = stats[3];
     }
 
 }
