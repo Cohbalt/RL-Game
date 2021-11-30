@@ -4,15 +4,53 @@ using UnityEngine;
 
 public class Map
 {
-    public List<Tile> tiles = new List<Tile>();
+    public Tile[,] tiles = new Tile[5, 3];
+    public bool[,] tileTrue = new bool[5, 3];
+    public Queue<int> BFS;
 
     public void randomizeMap(int difficulty = 1)
     {
+        int height = 1;
         for (int i = 0; i < 5; i++)
         {
             Tile temp = new Tile();
             temp.randomizeTile((i + 1) * 5);
-            tiles.Add(temp);
+            tiles[i, height] = temp;
+            tileTrue[i, height] = true;
+            height += Random.Range(-1, 2);
+            if (height < 0)
+            {
+                height = 0;
+            }
+            if (height > 2)
+            {
+                height = 2;
+            }
+        }
+        for (int i = 1; i < 4; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if (!tileTrue[i , j] && Random.Range(0,5) > i)
+                {
+                    Tile temp = new Tile();
+                    temp.randomizeTile(i + 5);
+                    tiles[i, j] = temp;
+                    tileTrue[i, j] = true;
+
+                }
+                else if (Random.Range(0,2) == 1)
+                {
+                    Tile temp = new Tile();
+                    temp.randomizeTile((i + 3) * i);
+                    tiles[i, j] = temp;
+                    tileTrue[i, j] = true;
+                }
+                else
+                {
+                    tileTrue[i, j] = false;
+                }
+            }
         }
     }
 

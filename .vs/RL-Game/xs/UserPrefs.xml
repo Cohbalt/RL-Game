@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{CCE9EB70-9463-6EBB-1B29-CB4A033AE457}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BattleEngine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.targets">
     <Files>
-      <File FileName="Assets/Map.cs" Line="39" Column="26" />
-      <File FileName="Assets/BattleEngine.cs" Line="48" Column="17" />
+      <File FileName="Assets/Map.cs" Line="48" Column="18" />
+      <File FileName="Assets/BattleEngine.cs" Line="315" Column="13" />
+      <File FileName="Assets/UnitAttributes.cs" Line="1" Column="1" />
+      <File FileName="Assets/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.targets" Line="186" Column="5" />
+      <File FileName="Assets/Attack.cs" Line="14" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RL-Game" expanded="True">
-            <Node name="Assets" expanded="True" />
-          </Node>
+          <Node name="RL-Game" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8981ca68-db02-4114-93b5-49004e83e1ad" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c5c7e9b5-b675-4577-852e-6066885f272c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

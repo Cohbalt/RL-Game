@@ -26,6 +26,7 @@ public class UnitAttributes : MonoBehaviour
         if (damage >= unitCurrentHealth)
         {
             unitCurrentHealth = 0;
+            anim.Play("Hurt");
             anim.Play("Death");
             return true;
         }
