@@ -1,17 +1,21 @@
 ﻿<Properties StartupConfiguration="{CCE9EB70-9463-6EBB-1B29-CB4A033AE457}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Map.cs">
     <Files>
-      <File FileName="Assets/Map.cs" Line="48" Column="18" />
-      <File FileName="Assets/BattleEngine.cs" Line="315" Column="13" />
-      <File FileName="Assets/UnitAttributes.cs" Line="1" Column="1" />
-      <File FileName="Assets/MainMenu.cs" Line="1" Column="1" />
-      <File FileName="../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.targets" Line="186" Column="5" />
-      <File FileName="Assets/Attack.cs" Line="14" Column="19" />
+      <File FileName="Assets/Map.cs" Line="49" Column="21" />
+      <File FileName="Assets/BattleEngine.cs" Line="65" Column="33" />
+      <File FileName="Assets/UnitAttributes.cs" />
+      <File FileName="Assets/MainMenu.cs" />
+      <File FileName="../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.targets" />
+      <File FileName="Assets/Attack.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RL-Game" expanded="True" selected="True" />
+          <Node name="RL-Game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Map.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -20,7 +24,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c5c7e9b5-b675-4577-852e-6066885f272c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/aaronhervey/RL-Game/Assets/BattleEngine.cs" relfile="Assets/BattleEngine.cs" line="322" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

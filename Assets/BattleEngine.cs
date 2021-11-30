@@ -11,6 +11,7 @@ public class BattleEngine : MonoBehaviour
 {
     public Text currhp, lvl, luck, moves;
     public List<Text> weaponText;
+    public List<GameObject> enemyHealth;
 
     private GameObject background;
     private GameObject[] characterGo;
@@ -26,6 +27,8 @@ public class BattleEngine : MonoBehaviour
     private Attack[] weaponDrops;
 
     public List<GameObject> backgrounds;
+    public List<GameObject> toggle;
+    public GameObject[] toDisable;
     public List<GameObject> enemies;
     public GameObject hero;
     public List<GameObject> buttons;
@@ -69,20 +72,26 @@ public class BattleEngine : MonoBehaviour
 
     IEnumerator startBattle()
     {
+        baseAttackCount += stagehorizontal;
+        toDisable[0].SetActive(true);
+        toDisable[1].SetActive(true);
         weaponDrops = new Attack[3];
         background = Instantiate(backgrounds[map.tiles[stagehorizontal, stagevert].background], spawns[0]) ;
         for (int i = 0; i < enemyTrue.Length; i++)
         {
             buttons[i].SetActive(false);
             movement[i].SetActive(false);
+            toggle[i].SetActive(false);
+            enemyHealth[i].SetActive(false);
             enemyTrue[i] = map.tiles[stagehorizontal, stagevert].enemyTrue[i] != 0;
             if (map.tiles[stagehorizontal, stagevert].enemyTrue[i] == 1)
             {
                 buttons[i].SetActive(true);
-
+                enemyHealth[i].SetActive(true);
                 characterGo[i + 1] = Instantiate(enemies[map.tiles[stagehorizontal, stagevert].enemies[i].enemyType], spawns[i + 2]);
                 characterUnits[i + 1] = characterGo[i + 1].GetComponent<UnitAttributes>();
                 characterUnits[i + 1].setStats(map.tiles[stagehorizontal, stagevert].enemies[i].stats);
+                enemyHealth[i].GetComponentInChildren<Text>().text = characterUnits[i + 1].unitCurrentHealth.ToString();
             }
         }
 
@@ -94,11 +103,23 @@ public class BattleEngine : MonoBehaviour
         playerTurn();
     }
 
+    void updateEnemy()
+    {
+        for (int i = 0; i < enemyTrue.Length; i++)
+        {
+            if (map.tiles[stagehorizontal, stagevert].enemyTrue[i] == 1)
+            {
+                enemyHealth[i].GetComponentInChildren<Text>().text = characterUnits[i + 1].unitCurrentHealth.ToString();
+            }
+        }
+    }
+
     void UpdatePlayerHP()
     {
-        currhp.text = characterUnits[0].unitCurrentHealth.ToString() + "/" + characterUnits[0].unitMaxHealth.ToString();
+        currhp.text = characterUnits[0].unitCurrentHealth.ToString();
         luck.text = characterUnits[0].unitLuck.ToString();
         lvl.text = (stagehorizontal + 1).ToString();
+        moves.text = currentAttackCount.ToString();
     }
 
     void playerTurn()
@@ -129,15 +150,12 @@ public class BattleEngine : MonoBehaviour
         if (queuedAttacks.Count == queuedTargets.Count)
         {
             queuedAttacks.Add(heroAttacks[i]);
-            currentAttackCount -= heroAttacks[i].cost;
         }
 
         else
         {
-            currentAttackCount += queuedAttacks[queuedAttacks.Count - 1].cost;
             queuedAttacks.RemoveAt(queuedAttacks.Count - 1);
             queuedAttacks.Add(heroAttacks[i]);
-            currentAttackCount -= heroAttacks[i].cost;
         }
     }
 
@@ -151,17 +169,19 @@ public class BattleEngine : MonoBehaviour
         if (queuedTargets.Count < queuedAttacks.Count)
         {
             queuedTargets.Add(characterUnits[i+1]);
+            currentAttackCount -= queuedAttacks[queuedAttacks.Count - 1].cost;
         }
         else if (queuedTargets.Count == 0)
         {
             return;
         }
-        else
+        else if (currentAttackCount >= queuedAttacks[queuedAttacks.Count - 1].cost)
         {
             queuedAttacks.Add(queuedAttacks[queuedAttacks.Count - 1]);
-            currentAttackCount += queuedAttacks[queuedAttacks.Count - 1].cost;
+            currentAttackCount -= queuedAttacks[queuedAttacks.Count - 1].cost;
             queuedTargets.Add(characterUnits[i+1]);
         }
+        UpdatePlayerHP();
     }
 
 
@@ -180,6 +200,8 @@ public class BattleEngine : MonoBehaviour
                 yield return new WaitForSeconds(.5f);
             }
         }
+
+        updateEnemy();
 
         for (int i = 0; i < enemyTrue.Length; i++)
         {
@@ -215,6 +237,8 @@ public class BattleEngine : MonoBehaviour
         else
         {
             state = allStates.PROGRESS;
+            toDisable[0].SetActive(false);
+            toDisable[1].SetActive(false);
             battleWin();
         }
         
@@ -242,6 +266,10 @@ public class BattleEngine : MonoBehaviour
 
     public void progress(int direction)
     {
+        if (state != allStates.PROGRESS)
+        {
+            return;
+        }
         
         state = allStates.START;
         Destroy(background);
@@ -267,6 +295,7 @@ public class BattleEngine : MonoBehaviour
         if (map.tileTrue[stagehorizontal + 1, stagevert])
         {
             movement[1].SetActive(true);
+            toggle[1].SetActive(true);
             pathFound = true;
         }
         if (stagevert > 0)
@@ -274,6 +303,7 @@ public class BattleEngine : MonoBehaviour
             if (map.tileTrue[stagehorizontal + 1, stagevert - 1])
             {
                 movement[0].SetActive(true);
+                toggle[0].SetActive(true);
                 pathFound = true;
             }
         }
@@ -282,6 +312,7 @@ public class BattleEngine : MonoBehaviour
             if (map.tileTrue[stagehorizontal + 1, stagevert + 1])
             {
                 movement[2].SetActive(true);
+                toggle[2].SetActive(true);
                 pathFound = true;
             }
         }
@@ -291,6 +322,7 @@ public class BattleEngine : MonoBehaviour
             map.tiles[stagehorizontal + 1, stagevert].randomizeTile(stagehorizontal + 1);
             map.tileTrue[stagehorizontal + 1, stagevert] = true;
             movement[1].SetActive(true);
+            toggle[1].SetActive(true);
 
         }
         state = allStates.CHOOSE;
@@ -301,7 +333,7 @@ public class BattleEngine : MonoBehaviour
                 weaponDrops[i] = new Attack();
                 buttons[i].SetActive(true);
                 weaponDrops[i].randomize(UnityEngine.Random.Range(1, 4), UnityEngine.Random.Range(1, stagehorizontal * 5));
-                weaponText[i].text = "Weapon: " + ((weaponDrops[i].type)).ToString() + "\nDamage:" + weaponDrops[i].damage.ToString() + "\nCost: " + weaponDrops[i].cost.ToString();
+                weaponText[i].text = "Slot: " + ((weaponDrops[i].type)).ToString() + "\nDamage:" + weaponDrops[i].damage.ToString() + "\nCost: " + weaponDrops[i].cost.ToString();
             }
         }
     }
