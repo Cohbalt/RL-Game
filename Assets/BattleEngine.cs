@@ -15,23 +15,27 @@ public class BattleEngine : MonoBehaviour
     //public Text maxhp;
     //private Animation anim;
     public GameObject enemyPrefab1, enemyPrefab2, enemyPrefab3;
-    public GameObject background, backgroundPrefab;
-    public GameObject playerPrefab;
+    public GameObject background;
     public GameObject playerGO, enemy1GO, enemy2GO, enemy3GO;
     public GameObject endTurnButton, attackButton;
-    int attackCount;
-    public int stage = 0;
+    
+    public int baseAttackCount;
+    public int currentAttackCount;
+    public int stage;
 
     public Map map;
+
+    public List<Attack> heroAttacks;
+    public List<UnitAttributes> queuedTargets;
+    public List<Attack> queuedAttacks;
 
     public List<GameObject> backgrounds;
     public List<GameObject> enemies;
     public GameObject hero;
+    public List<GameObject> buttons;
 
     //public GameObject map;
     public int currentIndex;
-    private List<int> Attacks;
-    private List<UnitAttributes> Targets;
 
     public Transform playerSpawn;
     public Transform backgroundAnchor;
@@ -47,19 +51,28 @@ public class BattleEngine : MonoBehaviour
 
     void Start()
     {
+        heroAttacks = new List<Attack>();
+        
+        while (heroAttacks.Count < 3)
+        {
+            heroAttacks.Add(new Attack());
+        }
+
         map = new Map();
         map.randomizeMap();
-        currentIndex = 0;
+        stage = 0;
+        baseAttackCount = 5;
         state = allStates.START;
+
+        playerGO = Instantiate(hero, playerSpawn);
+        playerUnit = playerGO.GetComponent<UnitAttributes>();
+
         StartCoroutine(startBattle());
     }
 
     IEnumerator startBattle()
     {
-        stage++;
         background = Instantiate(backgrounds[map.tiles[stage].background], backgroundAnchor);
-        playerGO = Instantiate(playerPrefab, playerSpawn);
-        playerUnit = playerGO.GetComponent<UnitAttributes>();
 
         enemyTrue1 = map.tiles[stage].enemyTrue[0] != 0;
         if (map.tiles[stage].enemyTrue[0] == 1)
@@ -103,16 +116,14 @@ public class BattleEngine : MonoBehaviour
 
     void playerTurn()
     {
-        
-        Attacks = new List<int>();
-        Targets = new List<UnitAttributes>();
-        attackCount = 0;
-
+        currentAttackCount = baseAttackCount;
+        queuedAttacks = new List<Attack>();
+        queuedTargets = new List<UnitAttributes>();
     }
     
     public void checkEndTurn()
     {
-        if (state != allStates.PLAYER || Attacks.Count < 1)
+        if (state != allStates.PLAYER)
         {
             return;
         }
@@ -121,29 +132,166 @@ public class BattleEngine : MonoBehaviour
         StartCoroutine(transition());
     }
 
-    public void attackCheck()
+    public void attackCheck1()
     {
-        if (state != allStates.PLAYER)
+        if (state != allStates.PLAYER || currentAttackCount < heroAttacks[0].cost)
         {
             return;
         }
 
-        Attacks.Add(playerUnit.unitAttack);
-        Targets.Add(enemyUnit2);
-        attackCount++;
+        if (queuedAttacks.Count == queuedTargets.Count)
+        {
+            queuedAttacks.Add(heroAttacks[0]);
+            currentAttackCount -= heroAttacks[0].cost;
+        }
+
+        else
+        {
+            currentAttackCount += queuedAttacks[queuedAttacks.Count - 1].cost;
+            queuedAttacks.RemoveAt(queuedAttacks.Count - 1);
+            queuedAttacks.Add(heroAttacks[0]);
+            currentAttackCount -= heroAttacks[0].cost;
+        }
     }
 
-    void playerAttack(UnitAttributes enemyunit, int attack)
+    public void attackCheck2()
     {
-        enemyunit.takeDamage(attack);   
+        if (state != allStates.PLAYER || currentAttackCount < heroAttacks[1].cost)
+        {
+            return;
+        }
+
+        if (queuedAttacks.Count == queuedTargets.Count)
+        {
+            queuedAttacks.Add(heroAttacks[1]);
+            currentAttackCount -= heroAttacks[1].cost;
+        }
+
+        else
+        {
+            currentAttackCount += queuedAttacks[queuedAttacks.Count - 1].cost;
+            queuedAttacks.RemoveAt(queuedAttacks.Count - 1);
+            queuedAttacks.Add(heroAttacks[1]);
+            currentAttackCount -= heroAttacks[1].cost;
+
+        }
+    }
+
+    public void attackCheck3()
+    {
+        if (state != allStates.PLAYER || currentAttackCount < heroAttacks[2].cost)
+        {
+            return;
+        }
+
+        if (queuedAttacks.Count == queuedTargets.Count)
+        {
+            queuedAttacks.Add(heroAttacks[2]);
+            currentAttackCount -= heroAttacks[2].cost;
+        }
+
+        else
+        {
+            currentAttackCount += queuedAttacks[queuedAttacks.Count - 1].cost;
+            queuedAttacks.RemoveAt(queuedAttacks.Count - 1);
+            queuedAttacks.Add(heroAttacks[2]);
+            currentAttackCount -= heroAttacks[2].cost;
+
+        }
+    }
+
+    public void addTarget1()
+    {
+        if (state != allStates.PLAYER || !enemyTrue1)
+        {
+            return;
+        }
+
+        if (queuedTargets.Count < queuedAttacks.Count)
+        {
+            queuedTargets.Add(enemyUnit1);
+        }
+        else if (queuedTargets.Count == 0)
+        {
+            return;
+        }
+        else
+        {
+            queuedTargets.RemoveAt(queuedTargets.Count - 1);
+            queuedTargets.Add(enemyUnit1);
+        }
+    }
+
+    public void addTarget2()
+    {
+        if (state != allStates.PLAYER || !enemyTrue2)
+        {
+            return;
+        }
+
+        if (queuedTargets.Count < queuedAttacks.Count)
+        {
+            queuedTargets.Add(enemyUnit2);
+        }
+        else if (queuedTargets.Count == 0)
+        {
+            return;
+        }
+        else
+        {
+            queuedTargets.RemoveAt(queuedTargets.Count - 1);
+            queuedTargets.Add(enemyUnit2);
+        }
+    }
+
+    public void addTarget3()
+    {
+        if (state != allStates.PLAYER || !enemyTrue3)
+        {
+            return;
+        }
+
+        if (queuedTargets.Count < queuedAttacks.Count)
+        {
+            queuedTargets.Add(enemyUnit3);
+        }
+        else if (queuedTargets.Count == 0)
+        {
+            return;
+        }
+        else
+        {
+            queuedTargets.RemoveAt(queuedTargets.Count - 1);
+            queuedTargets.Add(enemyUnit3);
+        }
+    }
+
+    bool playerAttack(UnitAttributes enemyunit, Attack attack)
+    {
+        return enemyunit.takeDamage(attack.damage);   
     }
 
     IEnumerator transition()
     {
-        for (int i = 0; i < Attacks.Count; i++)
-        {         
-            playerAttack(Targets[i], Attacks[i]);
-            yield return new WaitForSeconds(.5f);
+        for (int i = 0; i < queuedTargets.Count; i++)
+        {
+            if (playerAttack(queuedTargets[i], queuedAttacks[i]))
+            {
+                yield return new WaitForSeconds(.5f);
+            }
+        }
+
+        if (enemyTrue1)
+        {
+            enemyTrue1 = enemyUnit1.unitCurrentHealth != 0;
+        }
+        if (enemyTrue2)
+        {
+            enemyTrue2 = enemyUnit2.unitCurrentHealth != 0;
+        }
+        if (enemyTrue3)
+        {
+            enemyTrue3 = enemyUnit3.unitCurrentHealth != 0;
         }
 
         state = allStates.ENEMY;
@@ -204,7 +352,24 @@ public class BattleEngine : MonoBehaviour
 
     void progress()
     {
-        SceneManager.LoadScene(2);
-        startBattle();
+        state = allStates.START;
+        Destroy(background);
+        
+        if (map.tiles[stage].enemyTrue[0] == 1)
+        {
+            Destroy(enemy1GO);
+        }
+        if (map.tiles[stage].enemyTrue[1] == 1)
+        {
+            Destroy(enemy2GO);
+        }
+        if (map.tiles[stage].enemyTrue[2] == 1)
+        {
+            Destroy(enemy3GO);
+        }
+
+        stage++;
+
+        StartCoroutine(startBattle());
     }
 }

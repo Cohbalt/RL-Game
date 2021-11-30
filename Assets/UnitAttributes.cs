@@ -10,23 +10,32 @@ public class UnitAttributes : MonoBehaviour
     public int unitLuck;
     public int unitAttack;
     public int unitDefense;
+    public bool isAlive;
     
-    public void takeDamage(int damage)
+    public bool takeDamage(int damage)
     {
+        if (unitCurrentHealth == 0)
+        {
+            return false;
+        }
+
         Animator anim;
         anim = GetComponentInChildren<Animator>();
-        anim.Play("Hurt");
+        
 
         if (damage >= unitCurrentHealth)
         {
             unitCurrentHealth = 0;
+            anim.Play("Death");
+            return true;
         }
 
         else
         {
             unitCurrentHealth -= damage;
+            anim.Play("Hurt");
+            return true;
         }
-
     }
 
     public void setStats(List<int> stats)
