@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Class for unitAttributes, which holds stats for the units
 public class UnitAttributes : MonoBehaviour
 {
     public string unitName;
@@ -12,6 +13,7 @@ public class UnitAttributes : MonoBehaviour
     public int unitDefense;
     public bool isAlive;
     
+    //Allows access to the animator of the unit and plays the hurt/death animation depending on the damage they took. Updates the health
     public bool takeDamage(int damage)
     {
         if (unitCurrentHealth == 0)
@@ -39,6 +41,7 @@ public class UnitAttributes : MonoBehaviour
         }
     }
 
+    //Sets the stats of the unit based on a list of stats.
     public void setStats(List<int> stats)
     {
         unitMaxHealth = stats[0];

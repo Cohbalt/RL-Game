@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Sets up the map class which contains tiles
 public class Map
 {
     public Tile[,] tiles = new Tile[5, 3];
     public bool[,] tileTrue = new bool[5, 3];
     public Queue<int> BFS;
-
+    
+    //Randomizes which tiles are true and randomized the tile there
     public void randomizeMap(int difficulty = 1)
     {
         int height = 1;
@@ -54,12 +56,14 @@ public class Map
         }
     }
 
+    //Tiles hold the background and the enemies for that tile
     public class Tile
     {
         public int background, thresh;
         public List<Enemy> enemies;
         public List<int> enemyTrue;
 
+        //Calls the randomize enemy function and ensures atleast one enemy spawns, with the other two being random chance
         public void randomizeTile(int thresh)
         {
             enemyTrue = new List<int>();
@@ -83,6 +87,8 @@ public class Map
                 enemies.Add(temp);
             }
         }   
+
+        //Enemy class that holds each individual enemy stat while also allowing for randomization of those stats based on a threshold.
         public class Enemy
         {
             int health;
